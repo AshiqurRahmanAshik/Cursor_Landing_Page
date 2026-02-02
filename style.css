@@ -166,3 +166,40 @@ nav button {
 .card h6 {
   color: #8e8e8e;
 }
+
+.frontier h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.frontier-card {
+  background-color: #1b1913;
+  padding: 10px;
+}
+.frontier-card h4 {
+  color: #edecec;
+  margin: 5px 0;
+  background-color: #1b1913;
+}
+.frontier-card p {
+  color: #8e8e8e;
+  margin: 5px 0;
+  line-height: 20px;
+  background-color: #1b1913;
+}
+.frontier-card button {
+  color: #f54e00;
+  border: none;
+  margin: 5px 0;
+  font-size: 17px;
+}
+.frontier-card img {
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.frontier-cards {
+  display: flex;
+  gap: 10px;
+}
