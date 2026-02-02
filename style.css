@@ -119,3 +119,50 @@ nav button {
   cursor: pointer;
   font-size: 16px;
 }
+
+.features-card h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  background-color: #1b1913;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card p {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #1b1913;
+  line-height: 18px;
+}
+.card > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #1b1913;
+}
+.card img {
+  border-radius: 5px;
+}
+.card h3 {
+  color: #edecec;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #1b1913;
+}
+.card h6 {
+  color: #8e8e8e;
+}
