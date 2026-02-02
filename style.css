@@ -203,3 +203,23 @@ nav button {
   display: flex;
   gap: 10px;
 }
+
+.Changelog date {
+  color: #8e8e8e;
+}
+.Changelog button {
+  color: #8e8e8e;
+  border: 1px solid #8e8e8e;
+  border-radius: 15px;
+  padding: 3px 10px;
+}
+.Changelog p {
+  color: #edecec;
+  padding: 10px 5px;
+}
+.Changelog-cards {
+  justify-content: space-between;
+}
+.Changelog {
+  width: 25%;
+}
