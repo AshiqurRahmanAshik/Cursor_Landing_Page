@@ -143,10 +143,10 @@ nav button {
   border-radius: 5px;
 }
 .card p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   background-color: #1b1913;
-  line-height: 18px;
+  line-height: 25px;
 }
 .card > div {
   display: flex;
