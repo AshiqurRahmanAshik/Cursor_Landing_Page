@@ -61,6 +61,9 @@ nav button {
   margin: 20px 0;
   font-weight: 400;
 }
+.hero-section img {
+  border-radius: 5px;
+}
 .hero-section button {
   border: none;
   border-radius: 100px;
@@ -85,4 +88,34 @@ nav button {
   background-color: #1b1913;
   padding: 20px;
   border-radius: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+  background-color: #1b1913;
+  padding: 30px;
+}
+.features img {
+  border-radius: 5px;
+}
+.features p {
+  font-size: 18px;
+  background-color: #1b1913;
+  color: #edecec;
+  line-height: 25px;
+}
+.features p span {
+  color: #8e8e8e;
+  background-color: #1b1913;
+}
+
+.features button {
+  background-color: #14120b;
+  color: #f54e00;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 }
