@@ -229,3 +229,24 @@ nav button {
   width: 25%;
   height: 120px;
 }
+
+.future {
+  margin: 80px 0px;
+}
+
+.future h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.future button {
+  border: none;
+  font-size: 16px;
+  padding: 10px 30px;
+  margin: 20px 0;
+}
+
+.future img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 25px;
+}
