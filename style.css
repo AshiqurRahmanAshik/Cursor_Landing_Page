@@ -191,7 +191,7 @@ nav button {
 .frontier-card button {
   color: #f54e00;
   border: none;
-  margin: 5px 0;
+  margin: 5px 0px;
   font-size: 17px;
 }
 .frontier-card img {
@@ -207,19 +207,25 @@ nav button {
 .Changelog date {
   color: #8e8e8e;
 }
+
 .Changelog button {
   color: #8e8e8e;
   border: 1px solid #8e8e8e;
   border-radius: 15px;
-  padding: 3px 10px;
+  padding: 1px 10px;
+  margin: 0px;
+}
+.Changelog date {
+  background-color: #1b1913;
 }
 .Changelog p {
   color: #edecec;
-  padding: 10px 5px;
 }
 .Changelog-cards {
   justify-content: space-between;
 }
 .Changelog {
+  border-radius: 5px;
   width: 25%;
+  height: 120px;
 }
